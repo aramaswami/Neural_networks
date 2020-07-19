@@ -15,5 +15,5 @@ Following is a summary of my model generation and analysis for this assignment.
 
 ## Single layer network  
 (9) I generated a single layer model to evaluate if there would be any improvement.  
-(10) The model accuracy improved significantly to 0.72.  
+(10) The model accuracy improved significantly to 0.72233.  
 (11) This shows that the additional layers were not improving performance with respect to this data set.
