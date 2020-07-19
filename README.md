@@ -4,7 +4,7 @@ Following is a summary of my model generation and analysis for this assignment.
 (2) From the data, the target variable is "IS_SUCCESSFUL"  
 (3) There are 8 columns with categorical data.  
 (4) A review of unique types shows that "Classification" has 71 unique types. I dropped this feature from the model since it is not likely to have any predictive value. I also dropped Status, EIN, and Name features as they are not likely to be predictive.  
-(5) The feature "Application_type" has 17 unique values. I retained it since this feature is likely to impact a successful outcome.  
+(5) The feature "Application_type" has 17 unique values. I retained it since this feature is likely to impact a successful outcome, and hence has high pridictive value.  
 (6) Ran one-hot encoder on the modified dataframe, excluded old columns and merged encode columns as the base df for model training  
 
 ## Deep neural network  
@@ -15,5 +15,5 @@ Following is a summary of my model generation and analysis for this assignment.
 
 ## Single layer network  
 (9) I generated a single layer model to evaluate if there would be any improvement.  
-(10) The model accuracy improved significantly to 0.6946.  
+(10) The model accuracy improved significantly to 0.72.  
 (11) This shows that the additional layers were not improving performance with respect to this data set.
